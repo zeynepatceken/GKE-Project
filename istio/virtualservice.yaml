@@ -1,0 +1,19 @@
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: sample-app-vs
+  namespace: default
+spec:
+  hosts:
+    - "*"
+  gateways:
+    - sample-app-gateway
+  http:
+    - match:
+        - uri:
+            prefix: /
+      route:
+        - destination:
+            host: sample-app
+            port:
+              number: 80
