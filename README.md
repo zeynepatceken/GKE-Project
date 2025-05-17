@@ -9,7 +9,7 @@ This project demonstrates how to provision a scalable and observable Kubernetes 
 - **Google Kubernetes Engine (GKE)** – Kubernetes cluster management
 - **Kubernetes** – Container orchestration
 - **Horizontal Pod Autoscaler (HPA)** – CPU-based autoscaling
-- **KEDA** – Event-driven autoscaling *(Nice to have)*
+- **KEDA** – Event-driven autoscaling 
 - **Prometheus & Grafana** – Monitoring and alerting
-- **Istio** – Service mesh *(Nice to have)*
+- **Istio** – Service mesh
 - **YAML** – Kubernetes manifest files
