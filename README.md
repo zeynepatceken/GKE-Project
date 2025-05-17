@@ -1,4 +1,4 @@
-# Google Kubernetes Engine (GKE) Infrastructure Setup with Terraform
+# ☁️ Google Kubernetes Engine (GKE) Infrastructure Setup with Terraform
 
 This project demonstrates how to provision a scalable and observable Kubernetes infrastructure on **Google Cloud Platform (GCP)** using **Terraform**. All resources are created following the **Infrastructure as Code (IaC)** approach.
 
